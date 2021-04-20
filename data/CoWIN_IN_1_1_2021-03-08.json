@@ -1,0 +1,137 @@
+{
+    "topBlock": {
+        "sites": {
+            "total": 3,
+            "govt": 3,
+            "pvt": 0,
+            "today": null
+        },
+        "sessions": {
+            "total": 300,
+            "govt": 300,
+            "pvt": 0,
+            "today": null
+        },
+        "registration": {
+            "total": null,
+            "male": null,
+            "female": null,
+            "others": null,
+            "today": null
+        },
+        "vaccination": {
+            "total": 1934,
+            "male": 891,
+            "female": 1043,
+            "others": 0,
+            "covishield": 1934,
+            "covaxin": 0,
+            "today": 66
+        }
+    },
+    "vaccinationDoneByTime": [
+        {
+            "ts": "2021-03-08T07:00:00.000Z",
+            "timestamps": "2021-03-08T13:00:00.000Z",
+            "label": "13:00-14:00",
+            "count": 8,
+            "dose_one": 3,
+            "dose_two": 5
+        },
+        {
+            "ts": "2021-03-08T05:00:00.000Z",
+            "timestamps": "2021-03-08T11:00:00.000Z",
+            "label": "11:00-12:00",
+            "count": 36,
+            "dose_one": 22,
+            "dose_two": 14
+        },
+        {
+            "ts": "2021-03-08T10:00:00.000Z",
+            "timestamps": "2021-03-08T16:00:00.000Z",
+            "label": "16:00-17:00",
+            "count": 3,
+            "dose_one": 3,
+            "dose_two": 0
+        },
+        {
+            "ts": "2021-03-08T04:00:00.000Z",
+            "timestamps": "2021-03-08T10:00:00.000Z",
+            "label": "10:00-11:00",
+            "count": 1,
+            "dose_one": 0,
+            "dose_two": 1
+        }, {
+            "ts": "2021-03-08T06:00:00.000Z",
+            "timestamps": "2021-03-08T12:00:00.000Z",
+            "label": "12:00-13:00",
+            "count": 20,
+            "dose_one": 11,
+            "dose_two": 9
+        }, {
+            "ts": "2021-03-08T09:00:00.000Z",
+            "timestamps": "2021-03-08T15:00:00.000Z",
+            "label": "15:00-16:00",
+            "count": 2,
+            "dose_one": 2,
+            "dose_two": 0
+        }, {
+            "ts": "2021-03-08T11:00:00.000Z",
+            "timestamps": "2021-03-08T17:00:00.000Z",
+            "label": "17:00-18:00",
+            "count": 2,
+            "dose_one": 2,
+            "dose_two": 0
+        }
+    ],
+    "last7DaysRegistration": [],
+    "last7DaysVaccination": [
+        {
+            "vaccine_date": "2021-03-02",
+            "count": 68,
+            "dose_one": 67,
+            "dose_two": 1
+        }, {
+            "vaccine_date": "2021-03-04",
+            "count": 194,
+            "dose_one": 191,
+            "dose_two": 3
+        }, {
+            "vaccine_date": "2021-03-05",
+            "count": 162,
+            "dose_one": 161,
+            "dose_two": 1
+        }, {
+            "vaccine_date": "2021-03-06",
+            "count": 100,
+            "dose_one": 60,
+            "dose_two": 40
+        }
+    ],
+    "getBeneficiariesGroupBy": [
+        {
+            "session_site_id": 552110,
+            "title": "Diglipur CHC",
+            "session_site_name": "Diglipur CHC",
+            "total": 706,
+            "partial_vaccinated": 322,
+            "totally_vaccinated": 384
+        }, {
+            "session_site_id": 552111,
+            "title": "Dr.RP Hospital",
+            "session_site_name": "Dr.RP Hospital",
+            "total": 487,
+            "partial_vaccinated": 289,
+            "totally_vaccinated": 198
+        }, {
+            "session_site_id": 552112,
+            "title": "Rangat CHC",
+            "session_site_name": "Rangat CHC",
+            "total": 741,
+            "partial_vaccinated": 417,
+            "totally_vaccinated": 324
+        }
+    ],
+    "reportFor": "State : 1 & District: 1 | 2021-03-08",
+    "timestamp": "2021-03-08 18:01:25"
+}
