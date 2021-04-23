@@ -1,1 +1,253 @@
-{"topBlock": {"sites": {"total": 20, "govt": 20, "pvt": 0, "today": null}, "sessions": {"total": 2000, "govt": 2000, "pvt": 0, "today": null}, "registration": {"total": null, "male": null, "female": null, "others": null, "today": null}, "vaccination": {"total": 33430, "male": 18189, "female": 15240, "others": 1, "covishield": 37398, "covaxin": 0, "today": 940, "tot_dose_1": 33430, "tot_dose_2": 3968, "total_doses": 37398, "aefi": 1}}, "vaccinationDoneByTime": [{"ts": "2021-04-14 09", "timestamps": "2021-04-14T10:00:00.000Z", "label": "09:00-10:00", "count": 49, "dose_one": 38, "dose_two": 11}, {"ts": "2021-04-14 10", "timestamps": "2021-04-14T11:00:00.000Z", "label": "10:00-11:00", "count": 239, "dose_one": 189, "dose_two": 50}, {"ts": "2021-04-14 11", "timestamps": "2021-04-14T12:00:00.000Z", "label": "11:00-12:00", "count": 225, "dose_one": 188, "dose_two": 37}, {"ts": "2021-04-14 12", "timestamps": "2021-04-14T13:00:00.000Z", "label": "12:00-13:00", "count": 145, "dose_one": 128, "dose_two": 17}, {"ts": "2021-04-14 13", "timestamps": "2021-04-14T14:00:00.000Z", "label": "13:00-14:00", "count": 17, "dose_one": 13, "dose_two": 4}, {"ts": "2021-04-14 14", "timestamps": "2021-04-14T15:00:00.000Z", "label": "14:00-15:00", "count": 67, "dose_one": 59, "dose_two": 8}, {"ts": "2021-04-14 15", "timestamps": "2021-04-14T16:00:00.000Z", "label": "15:00-16:00", "count": 130, "dose_one": 93, "dose_two": 37}, {"ts": "2021-04-14 16", "timestamps": "2021-04-14T17:00:00.000Z", "label": "16:00-17:00", "count": 63, "dose_one": 55, "dose_two": 8}, {"ts": "2021-04-14 17", "timestamps": "2021-04-14T18:00:00.000Z", "label": "17:00-18:00", "count": 5, "dose_one": 2, "dose_two": 3}], "last7DaysRegistration": [], "last7DaysVaccination": [{"vaccine_date": "2021-04-07", "count": 1582, "dose_one": 1457, "dose_two": 125, "covishield": 1582, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-08", "count": 1240, "dose_one": 1100, "dose_two": 140, "covishield": 1240, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-09", "count": 1945, "dose_one": 1792, "dose_two": 153, "covishield": 1945, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-10", "count": 2051, "dose_one": 1900, "dose_two": 151, "covishield": 2051, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-11", "count": 1134, "dose_one": 1033, "dose_two": 101, "covishield": 1134, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-12", "count": 1677, "dose_one": 1481, "dose_two": 196, "covishield": 1677, "covaxin": 0, "aefi": 0}, {"vaccine_date": "2021-04-13", "count": 981, "dose_one": 806, "dose_two": 175, "covishield": 981, "covaxin": 0, "aefi": 0}], "last5daySessionStatus": [{"session_date": "2021-04-07", "total": 20, "planned": 3, "ongoing": 7, "completed": 10}, {"session_date": "2021-04-12", "total": 25, "planned": 1, "ongoing": 7, "completed": 17}, {"session_date": "2021-04-08", "total": 20, "planned": 1, "ongoing": 1, "completed": 18}, {"session_date": "2021-04-11", "total": 24, "planned": 1, "ongoing": 3, "completed": 20}, {"session_date": "2021-04-10", "total": 23, "planned": 1, "ongoing": 2, "completed": 20}, {"session_date": "2021-04-13", "total": 20, "planned": 1, "ongoing": 5, "completed": 14}, {"session_date": "2021-04-09", "total": 21, "planned": 2, "ongoing": 2, "completed": 17}], "getBeneficiariesGroupBy": [{"state_id": 37, "state_name": "Daman and Diu", "district_id": 138, "id": 138, "title": "Daman", "district_name": "Daman", "total": 22565, "partial_vaccinated": 20535, "totally_vaccinated": 2030, "today": 698}, {"state_id": 37, "state_name": "Daman and Diu", "district_id": 139, "id": 139, "title": "Diu", "district_name": "Diu", "total": 9475, "partial_vaccinated": 7728, "totally_vaccinated": 1747, "today": 242}], "reportFor": "State : 37 | 2021-04-14", "aefiPercentage": 0.003, "vaccinationByAge": {"total": 33430, "vac_18_25": 608, "vac_25_40": 2251, "vac_40_60": 19840, "above_60": 10724}, "timestamp": "2021-04-14 18:02:40"}
+{
+  "topBlock": {
+    "sites": { "total": 20, "govt": 20, "pvt": 0, "today": null },
+    "sessions": { "total": 2000, "govt": 2000, "pvt": 0, "today": null },
+    "registration": {
+      "total": null,
+      "male": null,
+      "female": null,
+      "others": null,
+      "today": null
+    },
+    "vaccination": {
+      "total": 33430,
+      "male": 18189,
+      "female": 15240,
+      "others": 1,
+      "covishield": 37398,
+      "covaxin": 0,
+      "today": 940,
+      "tot_dose_1": 33430,
+      "tot_dose_2": 3968,
+      "total_doses": 37398,
+      "aefi": 1
+    }
+  },
+  "vaccinationDoneByTime": [
+    {
+      "ts": "2021-04-14 09",
+      "timestamps": "2021-04-14T10:00:00.000Z",
+      "label": "09:00-10:00",
+      "count": 49,
+      "dose_one": 38,
+      "dose_two": 11
+    },
+    {
+      "ts": "2021-04-14 10",
+      "timestamps": "2021-04-14T11:00:00.000Z",
+      "label": "10:00-11:00",
+      "count": 239,
+      "dose_one": 189,
+      "dose_two": 50
+    },
+    {
+      "ts": "2021-04-14 11",
+      "timestamps": "2021-04-14T12:00:00.000Z",
+      "label": "11:00-12:00",
+      "count": 225,
+      "dose_one": 188,
+      "dose_two": 37
+    },
+    {
+      "ts": "2021-04-14 12",
+      "timestamps": "2021-04-14T13:00:00.000Z",
+      "label": "12:00-13:00",
+      "count": 145,
+      "dose_one": 128,
+      "dose_two": 17
+    },
+    {
+      "ts": "2021-04-14 13",
+      "timestamps": "2021-04-14T14:00:00.000Z",
+      "label": "13:00-14:00",
+      "count": 17,
+      "dose_one": 13,
+      "dose_two": 4
+    },
+    {
+      "ts": "2021-04-14 14",
+      "timestamps": "2021-04-14T15:00:00.000Z",
+      "label": "14:00-15:00",
+      "count": 67,
+      "dose_one": 59,
+      "dose_two": 8
+    },
+    {
+      "ts": "2021-04-14 15",
+      "timestamps": "2021-04-14T16:00:00.000Z",
+      "label": "15:00-16:00",
+      "count": 130,
+      "dose_one": 93,
+      "dose_two": 37
+    },
+    {
+      "ts": "2021-04-14 16",
+      "timestamps": "2021-04-14T17:00:00.000Z",
+      "label": "16:00-17:00",
+      "count": 63,
+      "dose_one": 55,
+      "dose_two": 8
+    },
+    {
+      "ts": "2021-04-14 17",
+      "timestamps": "2021-04-14T18:00:00.000Z",
+      "label": "17:00-18:00",
+      "count": 5,
+      "dose_one": 2,
+      "dose_two": 3
+    }
+  ],
+  "last7DaysRegistration": [],
+  "last7DaysVaccination": [
+    {
+      "vaccine_date": "2021-04-07",
+      "count": 1582,
+      "dose_one": 1457,
+      "dose_two": 125,
+      "covishield": 1582,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-08",
+      "count": 1240,
+      "dose_one": 1100,
+      "dose_two": 140,
+      "covishield": 1240,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-09",
+      "count": 1945,
+      "dose_one": 1792,
+      "dose_two": 153,
+      "covishield": 1945,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-10",
+      "count": 2051,
+      "dose_one": 1900,
+      "dose_two": 151,
+      "covishield": 2051,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-11",
+      "count": 1134,
+      "dose_one": 1033,
+      "dose_two": 101,
+      "covishield": 1134,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-12",
+      "count": 1677,
+      "dose_one": 1481,
+      "dose_two": 196,
+      "covishield": 1677,
+      "covaxin": 0,
+      "aefi": 0
+    },
+    {
+      "vaccine_date": "2021-04-13",
+      "count": 981,
+      "dose_one": 806,
+      "dose_two": 175,
+      "covishield": 981,
+      "covaxin": 0,
+      "aefi": 0
+    }
+  ],
+  "last5daySessionStatus": [
+    {
+      "session_date": "2021-04-07",
+      "total": 20,
+      "planned": 3,
+      "ongoing": 7,
+      "completed": 10
+    },
+    {
+      "session_date": "2021-04-12",
+      "total": 25,
+      "planned": 1,
+      "ongoing": 7,
+      "completed": 17
+    },
+    {
+      "session_date": "2021-04-08",
+      "total": 20,
+      "planned": 1,
+      "ongoing": 1,
+      "completed": 18
+    },
+    {
+      "session_date": "2021-04-11",
+      "total": 24,
+      "planned": 1,
+      "ongoing": 3,
+      "completed": 20
+    },
+    {
+      "session_date": "2021-04-10",
+      "total": 23,
+      "planned": 1,
+      "ongoing": 2,
+      "completed": 20
+    },
+    {
+      "session_date": "2021-04-13",
+      "total": 20,
+      "planned": 1,
+      "ongoing": 5,
+      "completed": 14
+    },
+    {
+      "session_date": "2021-04-09",
+      "total": 21,
+      "planned": 2,
+      "ongoing": 2,
+      "completed": 17
+    }
+  ],
+  "getBeneficiariesGroupBy": [
+    {
+      "state_id": 37,
+      "state_name": "Daman and Diu",
+      "district_id": 138,
+      "id": 138,
+      "title": "Daman",
+      "district_name": "Daman",
+      "total": 22565,
+      "partial_vaccinated": 20535,
+      "totally_vaccinated": 2030,
+      "today": 698
+    },
+    {
+      "state_id": 37,
+      "state_name": "Daman and Diu",
+      "district_id": 139,
+      "id": 139,
+      "title": "Diu",
+      "district_name": "Diu",
+      "total": 9475,
+      "partial_vaccinated": 7728,
+      "totally_vaccinated": 1747,
+      "today": 242
+    }
+  ],
+  "reportFor": "State : 37 | 2021-04-14",
+  "aefiPercentage": 0.003,
+  "vaccinationByAge": {
+    "total": 33430,
+    "vac_18_25": 608,
+    "vac_25_40": 2251,
+    "vac_40_60": 19840,
+    "above_60": 10724
+  },
+  "timestamp": "2021-04-14 18:02:40"
+}

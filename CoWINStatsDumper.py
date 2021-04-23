@@ -2,6 +2,7 @@ import datetime
 import json
 import logging
 import time
+import pandas as pd
 import os
 import requests
 
@@ -9,8 +10,8 @@ INDIA_URL = "https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports"
 STATE_URL = "https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports?state_id="
 DISTR_URL = "https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports?state_id=&district_id="
 
-START_DATE = datetime.date(2021, 3, 8)
-END_DATE  = datetime.date(2021, 4, 18)
+START_DATE = datetime.date(2021, 4, 19)
+END_DATE  = datetime.date(2021, 4, 22)
 SKIP_STATES = False
 SKIP_DISTRICTS = False
 
