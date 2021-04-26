@@ -12,3 +12,4 @@ dependencies:
   - bokeh
   - dask
   - dataframe_image
+  - fpdf
